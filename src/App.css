@@ -1,0 +1,104 @@
+/* =====  PALETTE  ===== */
+:root {
+  --black: #000;
+  --white: #fff;
+  --purple: #6a0dad;
+  --blue:   #007bff;
+}
+
+/* =====  GLOBAL  ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--black);
+  color: var(--white);
+  line-height: 1.65;
+  scroll-behavior: smooth;
+}
+
+img { max-width: 100%; }
+
+h1, h2 { color: var(--purple); }
+
+a { color: var(--blue); text-decoration: none; }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+section { margin-bottom: 48px; }
+
+/* =====  NAVBAR  ===== */
+nav {
+  display: flex;
+  gap: 24px;
+  padding: 18px 32px;
+  background: var(--black);
+  border-bottom: 2px solid var(--purple);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav a.active { color: var(--purple); }
+
+/* =====  SOCIAL / BUTTONS  ===== */
+.socials,
+.links-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 18px 0 32px;
+}
+
+.socials a,
+.btn {
+  padding: 8px 14px;
+  background: var(--purple);
+  border-radius: 4px;
+  color: var(--white);
+  font-size: 0.95em;
+  transition: background 0.2s;
+}
+
+.socials a:hover,
+.btn:hover { background: var(--blue); }
+
+/* =====  PROJECT CARDS  ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: var(--white);
+  color: var(--black);
+  padding: 24px;
+  border-radius: 8px;
+  transition: transform 0.25s, box-shadow 0.25s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.25);
+}
+
+.card h3 { margin-top: 0; color: var(--purple); }
+
+/* =====  FOOTER  ===== */
+footer {
+  background: var(--black);
+  border-top: 2px solid var(--purple);
+  text-align: center;
+  padding: 24px;
+  font-size: 0.9em;
+}
