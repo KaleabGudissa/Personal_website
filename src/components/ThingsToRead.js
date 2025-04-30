@@ -35,6 +35,8 @@ export default function ThingsToRead() {
                 <p tabIndex="0">
                     * You can use  <strong>Tab</strong> key to move between the links above.
                     Press <strong>Enter</strong> to activate a link.
+                    I focused on ensuring a logical tab order and visible focus
+                    indicators to support efficient navigation and reduce user confusion.
                 </p>
             </section>
         </div>
