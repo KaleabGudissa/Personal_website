@@ -29,7 +29,7 @@ export default function Css480() {
             <section>
                 <h2>Welcome!</h2>
                 <p>
-                    This section is built for the CSS480 course — Principles of
+                    This section is built for the CSS480 course Principles of
                     Human-Computer Interaction. I will share my website building
                     progress on this section of my personal website.
                 </p>
