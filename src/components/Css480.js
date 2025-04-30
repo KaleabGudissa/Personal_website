@@ -34,7 +34,6 @@ export default function Css480() {
                     progress on this section of my personal website.
                 </p>
             </section>
-
             <section>
                 <h2>About Me</h2>
                 <p>
@@ -63,5 +62,6 @@ export default function Css480() {
         </div>
     );
 }
+
 
 
