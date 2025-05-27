@@ -1,0 +1,44 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+h1, h2 {
+    color: var(--accent);
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 16px;
+    font-size: 1.05em;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.7;
+}
+
+.img {
+    border-radius: 12px;
+    margin: 20px 0;
+    width: 100%;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.feature-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 32px;
+    border: 1px solid var(--accent);
+}
+
+.progress {
+    width: 100%;
+    margin-top: 10px;
+    accent-color: var(--accent);
+    cursor: pointer;
+    height: 8px;
+    border-radius: 4px;
+}
